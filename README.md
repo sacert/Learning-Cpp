@@ -2,7 +2,7 @@
 
 Documenting myself learning C++ for an interview.
 
-#Fundamental types
+# Fundamental types
 
 **Booleans:**
   - Declare as `bool`
