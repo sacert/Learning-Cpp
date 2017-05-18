@@ -32,13 +32,13 @@ Documenting myself learning C++ for an interview.
   - `void` means nothing / no type
   - when constructing a function, `int foo()` is the same as `int foo(void)`
   
-#Other Types
+# Other Types
 
 **Strings**
   - May be constructed by including the `std` namespace 
   - Example: `string word = "hello";`
   
-#Data Types
+# Data Types
 
 **Enumerations**
   - Compiled as integers where the default starts at 0 and increments + 1 to each of the remaining values
@@ -46,7 +46,7 @@ Documenting myself learning C++ for an interview.
   - Values within enum are declared within the scope
   - Example: enum colors { RED = 3, GREEN = 2, BLUE = 1 };
  
-#Pointers
+## Pointers
   - `(*)` Dereferencing operator - points to the variable whose address they store
     - *Must* point to an address
     - When using a pointer variable, it will access it's stored address and give you the value of that memory location
@@ -56,17 +56,17 @@ Documenting myself learning C++ for an interview.
     - Example: `foo = 26` and `&foo = 1776`
     - Since arrays are pointers, a pointer can point to an array like `int *copy = array`
   
-#Arrays
+## Arrays
   - Array variables are pointers to the first address and increment the address value depending on which value you want
   - Example: With `int test[25]`, `test` points to `&test[0]`
   - Example declaration: `int foo[25];` or `int foo[] = {24,25,26,27};`
   - Multidimensional arrays = `int foo[y][x];`
 
-#Constants
+## Constants
   - May not be altered
   - either with `#define indentifier value` or `const`
 
-#Structures
+## Structures
   - Declare with `struct`
   - Example: `struct test { int foo = 5; } foo, bar;`
   - Mainly for backwards compatibility
